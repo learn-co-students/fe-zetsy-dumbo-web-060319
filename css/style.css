@@ -1,3 +1,6 @@
+.header {
+    
+}
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
@@ -5,16 +8,56 @@
 /*////////// Global Styles //////////*/
 
 body {
-	background: #F3EBE9;
+	background:rgba(242	,235,	233	,1)	;
 	font-size: 100%;
+	
 	font-family: 'Times New Roman', serif; 
 }
 
 .wrapper {
+	align:center;
 	width: 960px;
+	background:white;
 	margin: 0 auto;
-	background: #fff;
+	
 	padding: 0 45px 20px;
+}
+#heading h1{
+	font-weight: lighter;
+	font-size: 60px;
+	font-family:  serif;
+}
+
+#heading h1{
+	color: rgba(162	,175,	170	,1)
+}
+p, h2{
+	color:rgb(116,	126,	120,1	) ;
+}
+a img {
+	
+	border: 5px solid rgba(158,	171,	166,	1);
+  }
+#copyright{
+	float:right;
+}
+div img{
+	border:5px solid rgba(158,	171,	166,	1);
+}
+a img:hover {
+	border: 5px solid rgba(118,	126	,122,1	);
 }
 
 /* Write all remaining styles here */
+.clearfix:after{
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+}
+
+hr{
+	color: rgba(221	,221,	221,	1)
+}
